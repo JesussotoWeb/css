@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+header, main, footer, aside {
+  padding: 10px;
+  width: 300px; 
+  height: 100px;
+}
+header{
+  width: 100%; /* px | % */
+  height: auto;
+  background-color: #e1e1e1;
+  color: #808080;
+}
+main{
+  background-color: #7777ee;
+  width: 60%;
+  height: 400px;
+
+}
+aside{
+  background-color: #d3efa1;
+
+  width: 40%;
+  height: 400px;
+}
+footer{
+  background-color: #1d1c28;
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
